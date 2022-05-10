@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Not sure what the hyperlink below is even for-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+
+            // TODO: Add code to check answers to questions
+            // Delay script until DOM has been loaded
+            document.addEventListener("DOMContentLoaded", function ()
+            {
+                // Look for a DOM object that falls under the "correct" class
+                let correct = document.querySelector(".correct");
+
+                // Change button to green color and provide feedback
+                correct.addEventListener("click", function()
+                {
+                    correct.style.backgroundColor = 'green';
+                    document.querySelector("#feedback0").innerHTML = "Correct!";
+                });
+
+                // Look for DOM objects that fall under the "incorrect" class, return objects as elements in an array
+                let incorrects = document.querySelectorAll(".incorrect");
+
+                // For each DOM object in the "incorrects" array, change button to red color and provide feedback
+                for (let i = 0; i < incorrects.length; i++)
+                {
+                    incorrects[i].addEventListener("click", function()
+                    {
+                        incorrects[i].style.backgroundColor = "red";
+                        document.querySelector("#feedback0").innerHTML = "Incorrect";
+                    })
+                }
+
+                // Look for a DOM object with the ID "ans_check"
+                document.querySelector("#ans_check").addEventListener("click", function()
+                {
+                    // Look for DOM object with ID "ans" and store it in an "input" variable
+                    let input = document.querySelector("#ans")
+                    {
+
+                        // Check if contents of input variable equal the desired answer and provide feedback
+                        if (input.value === "Riemann Hypothesis")
+                        {
+                            document.querySelector("#feedback1").innerHTML = "Correct";
+                        }
+                        else
+                        {
+                            document.querySelector("#feedback1").innerHTML = "Incorrect";
+                        }
+                    }
+                })
+            });
+
+        </script>
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What is the most populous city in the Americas?</h3>
+                <!-- TODO: Add multiple choice question here -->
+
+                <button class="incorrect">New York</button>
+                <button class="correct">São Paulo</button>
+                <button class="incorrect">Mexico City</button>
+                <button class="incorrect">Lima</button>
+                <button class="incorrect">Los Angeles</button>
+                <button class="incorrect">Toronto</button>
+
+                <p id="feedback0"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>
+                    Which famous conjecture, beginning with an R, is considered one
+                    of the most important unsolved problems in pure mathematics?
+                </h3>
+                <input type="text" id="ans">
+                <button id="ans_check">Check Answer</button>
+
+                <p id = "feedback1"></p>
+            </div>
+        </div>
+    </body>
+</html>
