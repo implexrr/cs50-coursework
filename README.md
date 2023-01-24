@@ -1,6 +1,8 @@
 # [CS50x 2022 — Introduction to Computer Science](https://cs50.harvard.edu/x/2022/) - Problem Sets
 
-This repository contains all the coursework I did during CS50 in May of 2022. Please refer to Harvard's [academic honesty](https://cs50.harvard.edu/x/2022/honesty/) before looking at the code. Problem sets 8 and beyond were not completed as I decided to switch to the [Odin Project](https://www.theodinproject.com/) afterwards
+This repository contains all the coursework I did during CS50 in May of 2022. Problem sets 8 and beyond were not completed as I decided to switch to the [Odin Project](https://www.theodinproject.com/) afterwards.
+
+Disclaimer: Harvard's policy on Academic Honesty can be found [here](https://cs50.harvard.edu/x/2022/honesty/).
 - [Problem Set 1: C](/pset1)
   - [Hello :wave:](/pset1/hello)
   - [Mario (more) :mushroom:](/pset1/mario-more)
