@@ -1,5 +1,31 @@
-# cs50-coursework
-This repository contains all the coursework (ongoing) I did during CS50 in May - ? of 2022.
+# [CS50x 2022 — Introduction to Computer Science](https://cs50.harvard.edu/x/2022/) - Problem Sets
 
-# Todo
-Review/clean up code
+This repository contains all the coursework I did during CS50 in May of 2022. Please refer to Harvard's [academic honesty](https://cs50.harvard.edu/x/2022/honesty/) before looking at the code. Problem sets 8 and beyond were not completed as I decided to switch to the [Odin Project](https://www.theodinproject.com/) afterwards
+- [Problem Set 1: C](/pset1)
+  - [Hello](/pset1/hello)
+  - [Mario (more) :mushroom:](/pset1/mario-more)
+  - [Credit](/pset1/credit)
+- [Problem Set 2: Arrays](/pset2)
+  - [Readability](/pset2/readability)
+  - [Scrabble](/pset2/scrabble)
+  - [Substitution](/pset2/substitution)
+- [Problem Set 3: Algorithms](/pset3)
+  - [Plurality](pset3/plurality)
+  - [Tideman](pset3/tideman)
+- [Problem Set 4: Memory](/pset4)
+  - [Volume :musical_note:](/pset4/volume)
+  - [Filter (more) :framed_picture:](/pset4/filter-more)
+  - [Recover](/pset4/recover)
+- [Problem Set 5: Data Structures](/pset5)
+  - [Inheritance](/pset5/inheritance)
+  - [Speller](/pset5/speller)
+- [Problem Set 6: Python :snake:](/pset6)
+  - [World Cup :soccer:](/pset6/world-cup)
+  - [(Sentimental) Hello](/pset6/sentimental-hello)
+  - [(Sentimental) Credit](/pset6/sentimental-credit)
+  - [(Sentimental) Mario (more)](/pset6/sentimental-mario-more)
+  - [(Sentimental) Readability](/pset6/sentimental-readability)
+- [Problem Set 7: SQL](/pset6)
+  - [Fiftyville](/pset7/fiftyville)
+  - [Movies](/pset7/movies)
+  - [Songs](/pset7/songs)
